@@ -8,8 +8,8 @@ const Navbar = () => {
         <img className="mx-2 w-16" src={logo} alt="logo"/>
     </div>
     <div className="mb-8 mr-4 flex items-center justify-content gap-4 text-2xl">
-        <FaLinkedin/>
-        <FaGithub/>
+        <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-blue-400 duration-300" target="blank" href="https://www.linkedin.com/in/viniciusferucciferrari/"><FaLinkedin/></a>
+        <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" target="blank" href="https://github.com/vfferrari7"><FaGithub/></a>
     </div>
   </nav>;
 };

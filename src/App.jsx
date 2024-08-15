@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Technologies from "./components/Technologies";
 import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
 const App = () => (
   <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900">
@@ -17,6 +18,7 @@ const App = () => (
       <About />
       <Technologies />
       <Projects />
+      <Contact />
     </div>
   </div>
 );
